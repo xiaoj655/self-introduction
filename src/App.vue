@@ -1,9 +1,15 @@
 <template>
+  <div class="wrapper">
+  <div style="flex:2;"></div>
+  <div style="flex:3;">
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">个人介绍</router-link> | 
+    <router-link to="/project-display">github仓库</router-link>
   </nav>
   <router-view/>
+  </div>
+  <div style="flex:2;"></div>
+  </div>
 </template>
 
 <style>
@@ -26,5 +32,11 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+body {
+  padding: 30px 0 300px 0 ;
+}
+.wrapper {
+  display: flex;
 }
 </style>
