@@ -15,7 +15,7 @@
       </n-h4>
       <todolistCarousel /><br>
       <n-button type="info">
-      <a href="http://sztu.fun:8081/TodoList.html" target="_blank" @click="()=> show1 = true">试一下</a> </n-button>
+      <a href="http://sztu.fun:8080/TodoList.html" target="_blank" @click="()=> show1 = true">试一下</a> </n-button>
       <span v-if="show1">emm。。相当简陋</span>
     </n-tab-pane>
     <n-tab-pane name="chap2" tab="第一个项目的改进">
