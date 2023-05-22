@@ -1,5 +1,5 @@
 <template>
-  <n-carousel autoplay showarrow draggable> 
+  <n-carousel autoplay showarrow draggable :interval="1500"> 
     <img
       class="carousel-img"
       src="../../public/firstGenTodoList.png"

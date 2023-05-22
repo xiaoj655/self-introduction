@@ -2,10 +2,6 @@
   <div class="wrapper">
   <div style="flex:2;"></div>
   <div style="flex:3;">
-  <nav>
-    <router-link to="/">个人介绍</router-link> | 
-    <router-link to="/project-display">项目展示</router-link>
-  </nav>
   <router-view/>
   </div>
   <div style="flex:2;"></div>
