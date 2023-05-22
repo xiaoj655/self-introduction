@@ -15,7 +15,7 @@
       </n-h4>
       <todolistCarousel /><br>
       <n-button type="info">
-      <a href="http://sztu.fun:8080/TodoList.html" target="_blank" @click="()=> show1 = true">试一下</a> </n-button>
+      <a href="http://47.120.41.52:8080/TodoList.html" target="_blank" @click="()=> show1 = true">试一下</a> </n-button>
       <span v-if="show1">emm。。相当简陋</span>
     </n-tab-pane>
     <n-tab-pane name="chap2" tab="第一个项目的改进">
@@ -26,7 +26,7 @@
       <br>
       <todolistCarousel2 /><br>
       <n-button type="info">
-      <a href="http://sztu.fun:8082" target="_blank">去看一下！</a> 
+      <a href="http://47.120.41.52:8081" target="_blank">去看一下！</a> 
       </n-button>
     </n-tab-pane>
     <n-tab-pane name="chap4" tab="第三个项目">
@@ -34,7 +34,7 @@
       这是一个手机项目,仿京东到家的一个手机网页。用到了vue以及它的vuex，router。<br>
       </n-h4>
       <n-button type="info">
-      <a href="http://sztu.fun:8082" target="_blank">去看一下！</a>
+      <a href="http://47.120.41.52:8082" target="_blank">去看一下！</a>
       </n-button>
       <jdCarousel />
     </n-tab-pane>
