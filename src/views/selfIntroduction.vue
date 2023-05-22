@@ -60,6 +60,7 @@ import todolistCarousel2 from './todolistCarousel2.vue'
 import jdCarousel from './jdCarousel.vue'
 import { ref } from 'vue'
 
+
 export default {
   name:'selfIntroduction',
   components: { NTabPane, NTabs, NDivider, NH3, todolistCarousel, todolistCarousel2, NButton, NH4, jdCarousel },
