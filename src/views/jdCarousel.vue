@@ -41,7 +41,7 @@ export default {
 }
 div {
   position: absolute;
-  top: 270px;
+  top: 350px;
   left: 50%;
   width: 816px;
   height: 715px;
@@ -49,6 +49,6 @@ div {
 }
 .imgJd {
   position: absolute;
-  top: 0;
+  top: 0px;
 }
 </style>
